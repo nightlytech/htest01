@@ -1,5 +1,4 @@
-<?php
-// Function to get the user IP address
+
 function getUserIP() {
     $userIP =   '';
     if(isset($_SERVER['HTTP_CLIENT_IP'])){
@@ -19,7 +18,6 @@ function getUserIP() {
     }else{
         $userIP =   'UNKNOWN | NightlyTech ';
     }
-    echo "$userIP"
       return $userIP;
+   echo "$userIP";
 }
-?>
