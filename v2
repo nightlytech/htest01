@@ -23,3 +23,4 @@ function get_client_ip() {
  
 echo "document.write("" . get_client_ip();
 echo "");"
+?>
