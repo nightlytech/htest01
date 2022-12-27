@@ -19,5 +19,5 @@ function getUserIP() {
         $userIP =   'UNKNOWN | NightlyTech ';
     }
       return $userIP;
-   echo "$userIP";
 }
+echo "document.write(""$userIP()")"
