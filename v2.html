@@ -1,6 +1,4 @@
 <?php
- 
-// Function to get the client IP address
 function get_client_ip() {
     $ipaddress = '';
     if (isset($_SERVER['HTTP_CLIENT_IP']))
@@ -21,6 +19,5 @@ function get_client_ip() {
 }
  
  
-echo "document.write("" . get_client_ip();
-echo "");"
+echo "Your IP address is: " . get_client_ip();
 ?>
